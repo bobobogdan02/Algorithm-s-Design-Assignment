@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1528227833 source:d:\facultate\assignment\change\change4\coinchange.c
+	<stdio.h>
+	"coinChange.h"
+
+1528227989 d:\facultate\assignment\change\change4\coinchange.h
+
+1528227909 source:d:\facultate\assignment\change\change4\greedy.c
+	<stdio.h>
+	"greedy.h"
+
+1528227961 d:\facultate\assignment\change\change4\greedy.h
+
+1528227915 source:d:\facultate\assignment\change\change4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"coinChange.h"
+	"greedy.h"
+
+1528227833 source:d:\facultate\assignment\c\change4\coinchange.c
+	<stdio.h>
+	"coinChange.h"
+
+1528227989 d:\facultate\assignment\c\change4\coinchange.h
+
+1528227909 source:d:\facultate\assignment\c\change4\greedy.c
+	<stdio.h>
+	"greedy.h"
+
+1528227961 d:\facultate\assignment\c\change4\greedy.h
+
+1528227915 source:d:\facultate\assignment\c\change4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"coinChange.h"
+	"greedy.h"
+

@@ -1,0 +1,62 @@
+\hypertarget{greedy_8h}{}\section{D\+:/\+Facultate/\+Assignment/\+Change making/greedy.h File Reference}
+\label{greedy_8h}\index{D\+:/\+Facultate/\+Assignment/\+Change making/greedy.\+h@{D\+:/\+Facultate/\+Assignment/\+Change making/greedy.\+h}}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{greedy_8h_a12c2040f25d8e3a7b9e1c2024c618cb6}{I\+NF}~999
+\item 
+\#define \hyperlink{greedy_8h_a0d2cb986cb5b210909c4f1f35db9b03d}{N\+Coins}~4
+\item 
+\#define \hyperlink{greedy_8h_a04fd93ce94fec49b2c786f15252924f9}{Amount}~68
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{greedy_8h_a648a60f7c33bf77195042ae593814109}{greedy} (int denomination\mbox{[}\hyperlink{main_8h_a558e166ab003abe5b5f78556ec9c1627}{N\+Coins}+1\mbox{]}, int coins\mbox{[}\hyperlink{main_8h_a205e037d08a5161254a1965cb7c03b9d}{Amount}+1\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{greedy_8h_a04fd93ce94fec49b2c786f15252924f9}\label{greedy_8h_a04fd93ce94fec49b2c786f15252924f9}} 
+\index{greedy.\+h@{greedy.\+h}!Amount@{Amount}}
+\index{Amount@{Amount}!greedy.\+h@{greedy.\+h}}
+\subsubsection{\texorpdfstring{Amount}{Amount}}
+{\footnotesize\ttfamily \#define Amount~68}
+
+
+
+Definition at line 5 of file greedy.\+h.
+
+\mbox{\Hypertarget{greedy_8h_a12c2040f25d8e3a7b9e1c2024c618cb6}\label{greedy_8h_a12c2040f25d8e3a7b9e1c2024c618cb6}} 
+\index{greedy.\+h@{greedy.\+h}!I\+NF@{I\+NF}}
+\index{I\+NF@{I\+NF}!greedy.\+h@{greedy.\+h}}
+\subsubsection{\texorpdfstring{I\+NF}{INF}}
+{\footnotesize\ttfamily \#define I\+NF~999}
+
+
+
+Definition at line 3 of file greedy.\+h.
+
+\mbox{\Hypertarget{greedy_8h_a0d2cb986cb5b210909c4f1f35db9b03d}\label{greedy_8h_a0d2cb986cb5b210909c4f1f35db9b03d}} 
+\index{greedy.\+h@{greedy.\+h}!N\+Coins@{N\+Coins}}
+\index{N\+Coins@{N\+Coins}!greedy.\+h@{greedy.\+h}}
+\subsubsection{\texorpdfstring{N\+Coins}{NCoins}}
+{\footnotesize\ttfamily \#define N\+Coins~4}
+
+
+
+Definition at line 4 of file greedy.\+h.
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{greedy_8h_a648a60f7c33bf77195042ae593814109}\label{greedy_8h_a648a60f7c33bf77195042ae593814109}} 
+\index{greedy.\+h@{greedy.\+h}!greedy@{greedy}}
+\index{greedy@{greedy}!greedy.\+h@{greedy.\+h}}
+\subsubsection{\texorpdfstring{greedy()}{greedy()}}
+{\footnotesize\ttfamily void greedy (\begin{DoxyParamCaption}\item[{int}]{denomination\mbox{[}\+N\+Coins+1\mbox{]},  }\item[{int}]{coins\mbox{[}\+Amount+1\mbox{]} }\end{DoxyParamCaption})}
+
+Function greedy ﬁrst puts the denominations in descending order , then goes through the denominations if the current denomination is smaller the amount we need to form we ﬁnd how many times it ﬁts in the amount by dividing the amount by the denomination and saving it in the nocoins variable , then we subtract the amount that we get by multiplying the nocoins with the denomination . 
+
+Definition at line 14 of file Greedy.\+c.
+

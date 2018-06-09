@@ -1,0 +1,80 @@
+\hypertarget{coin_change_8c}{}\section{D\+:/\+Facultate/\+Assignment/\+Change making/coin\+Change.c File Reference}
+\label{coin_change_8c}\index{D\+:/\+Facultate/\+Assignment/\+Change making/coin\+Change.\+c@{D\+:/\+Facultate/\+Assignment/\+Change making/coin\+Change.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}coin\+Change.\+h\char`\"{}}\newline
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{coin_change_8c_a12c2040f25d8e3a7b9e1c2024c618cb6}{I\+NF}~999
+\item 
+\#define \hyperlink{coin_change_8c_a0d2cb986cb5b210909c4f1f35db9b03d}{N\+Coins}~4
+\item 
+\#define \hyperlink{coin_change_8c_a04fd93ce94fec49b2c786f15252924f9}{Amount}~68
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{coin_change_8c_ae5efc0eb4d3a5a5bb723db8a68df30c7}{coin\+Change} (int denomination\mbox{[}\hyperlink{main_8h_a558e166ab003abe5b5f78556ec9c1627}{N\+Coins}+1\mbox{]}, int nrcoins\mbox{[}\hyperlink{main_8h_a205e037d08a5161254a1965cb7c03b9d}{Amount}+1\mbox{]}, int lastcoin\mbox{[}\hyperlink{main_8h_a205e037d08a5161254a1965cb7c03b9d}{Amount}+1\mbox{]})
+\item 
+void \hyperlink{coin_change_8c_ad386cbbcacb0b256309d2673c643714c}{coin\+Set} (int denominations\mbox{[}\hyperlink{main_8h_a558e166ab003abe5b5f78556ec9c1627}{N\+Coins}+1\mbox{]}, int lastcoin\mbox{[}\hyperlink{main_8h_a205e037d08a5161254a1965cb7c03b9d}{Amount}+1\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{coin_change_8c_a04fd93ce94fec49b2c786f15252924f9}\label{coin_change_8c_a04fd93ce94fec49b2c786f15252924f9}} 
+\index{coin\+Change.\+c@{coin\+Change.\+c}!Amount@{Amount}}
+\index{Amount@{Amount}!coin\+Change.\+c@{coin\+Change.\+c}}
+\subsubsection{\texorpdfstring{Amount}{Amount}}
+{\footnotesize\ttfamily \#define Amount~68}
+
+
+
+Definition at line 6 of file coin\+Change.\+c.
+
+\mbox{\Hypertarget{coin_change_8c_a12c2040f25d8e3a7b9e1c2024c618cb6}\label{coin_change_8c_a12c2040f25d8e3a7b9e1c2024c618cb6}} 
+\index{coin\+Change.\+c@{coin\+Change.\+c}!I\+NF@{I\+NF}}
+\index{I\+NF@{I\+NF}!coin\+Change.\+c@{coin\+Change.\+c}}
+\subsubsection{\texorpdfstring{I\+NF}{INF}}
+{\footnotesize\ttfamily \#define I\+NF~999}
+
+
+
+Definition at line 4 of file coin\+Change.\+c.
+
+\mbox{\Hypertarget{coin_change_8c_a0d2cb986cb5b210909c4f1f35db9b03d}\label{coin_change_8c_a0d2cb986cb5b210909c4f1f35db9b03d}} 
+\index{coin\+Change.\+c@{coin\+Change.\+c}!N\+Coins@{N\+Coins}}
+\index{N\+Coins@{N\+Coins}!coin\+Change.\+c@{coin\+Change.\+c}}
+\subsubsection{\texorpdfstring{N\+Coins}{NCoins}}
+{\footnotesize\ttfamily \#define N\+Coins~4}
+
+
+
+Definition at line 5 of file coin\+Change.\+c.
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{coin_change_8c_ae5efc0eb4d3a5a5bb723db8a68df30c7}\label{coin_change_8c_ae5efc0eb4d3a5a5bb723db8a68df30c7}} 
+\index{coin\+Change.\+c@{coin\+Change.\+c}!coin\+Change@{coin\+Change}}
+\index{coin\+Change@{coin\+Change}!coin\+Change.\+c@{coin\+Change.\+c}}
+\subsubsection{\texorpdfstring{coin\+Change()}{coinChange()}}
+{\footnotesize\ttfamily void coin\+Change (\begin{DoxyParamCaption}\item[{int}]{denomination\mbox{[}\+N\+Coins+1\mbox{]},  }\item[{int}]{nrcoins\mbox{[}\+Amount+1\mbox{]},  }\item[{int}]{lastcoin\mbox{[}\+Amount+1\mbox{]} }\end{DoxyParamCaption})}
+
+no. of coins used when the amount is 0 last coin used when the amount is 0
+
+iterator1 is helping us going through every value from 1 to the given amount
+
+iterator2 is used to go through every coin value of the denomination
+
+Definition at line 10 of file coin\+Change.\+c.
+
+\mbox{\Hypertarget{coin_change_8c_ad386cbbcacb0b256309d2673c643714c}\label{coin_change_8c_ad386cbbcacb0b256309d2673c643714c}} 
+\index{coin\+Change.\+c@{coin\+Change.\+c}!coin\+Set@{coin\+Set}}
+\index{coin\+Set@{coin\+Set}!coin\+Change.\+c@{coin\+Change.\+c}}
+\subsubsection{\texorpdfstring{coin\+Set()}{coinSet()}}
+{\footnotesize\ttfamily void coin\+Set (\begin{DoxyParamCaption}\item[{int}]{denominations\mbox{[}\+N\+Coins+1\mbox{]},  }\item[{int}]{lastcoin\mbox{[}\+Amount+1\mbox{]} }\end{DoxyParamCaption})}
+
+print the coins used to make change by subtracting from the current index of lastcoin array the value saved at the current index position
+
+Definition at line 40 of file coin\+Change.\+c.
+
